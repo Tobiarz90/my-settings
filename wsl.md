@@ -48,10 +48,12 @@ using the command in Powershell:
 
 17. Set slimzsh as your default configuration:
 `nano ~/.zshrc`
-*#Add new line:*
-`source "$HOME/.slimzsh/slim.zsh"`
-*#Add new line:*
-`alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade"`
+
+*#Add new line at the top:*
+`alias update="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"`
+
+*#Add new line at the bottom:*
+`source ~/.slimzsh/slim.zsh`
 
 18. Install Fasd tool using the command:
 `sudo apt-get install fasd`
