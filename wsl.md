@@ -41,7 +41,7 @@ using the command in Powershell:
 14. Type `zsh` and then `2` to set up ZSH's configuration.
 
 15. Set ZSH as the default shell using the command:
-`chsh -s $(which zsh)`
+`chsh -s /bin/zsh`
 
 16. Install slimzsh - configuration for ZSH using the command:
 `git clone --recursive https://github.com/changs/slimzsh.git ~/.slimzsh`
