@@ -1,3 +1,4 @@
+
 1. Open Windows Powershell as Administrator.
 
 2. Run the command:
@@ -19,7 +20,7 @@
 `touch ~/.hushlogin`
 
 10. Update system using the command:
-`sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade`
+`sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y`
 
 11. Change default profile in Windows Terminal settings to Ubuntu.
 
@@ -58,12 +59,31 @@ type: "open settings json" and click ENTER to open your `settings.json` file.
 
 21. Open Terminal>New Terminal (Ctrl+Shift+`)
 
+**Basic commands**:
+- `sudo <command>` "superuser do" - allows a permitted user
+to execute a command as the superuser or another user
+- `su <username>` "substitute user" - changes the current user to another user
+- `man <command>` "manual page" - form of software documentation
+- `pwd` "print working directory" - prints name of current/working directory
+- `mkdir <...path/directory_name>` "make directory" - makes directory/ies
+- `touch <...path/file_name>` *touch of a magic wand* -  creates new file (if it doesn't already exist)
+- `cd <...path/directory_name>` "change directory" - switches current/working directory to another
+- `clear` - clears the terminal screen
+- `nano <...path/file_name>` - small editor for the terminal
+- `ls` - lists content of current/working directory
+- `cat <...path/file_name>` "concatenate" - concatenates files and prints their contents
 
-MATERIALS USED:
+**Materials used**:
 - https://www.youtube.com/watch?v=g1XbI-CjGcI&ab_channel=helloroman
 - https://fireship.io/lessons/windows-10-for-web-dev/
 - https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell
 - https://askubuntu.com/questions/733434/one-single-command-to-update-everything-in-ubuntu
 - https://en.wikipedia.org/wiki/Z_shell
+- https://en.wikipedia.org/wiki/Man_page
+- https://en.wikipedia.org/wiki/Su_(Unix)
+- https://en.wikipedia.org/wiki/Sudo
+- https://en.wikipedia.org/wiki/Touch_(command)
+- https://en.wikipedia.org/wiki/Pwd
+- https://en.wikipedia.org/wiki/Cat_(Unix)
 - https://github.com/changs/slimzsh
 - https://github.com/clvv/fasd
