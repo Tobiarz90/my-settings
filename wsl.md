@@ -14,7 +14,7 @@ and click OK.
 3. Download the Linux kernel update package from [here](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) and install it.
 
 4. Set version 2 of WSL as your default version
-using the command in Powershell:
+using the command in Command Prompt (with administrator privileges):
 `wsl --set-default-version 2`
 
 5. Install *Ubuntu* from Micorosft Store.
